@@ -347,3 +347,52 @@ a {
     justify-content: center;
     padding-bottom: 1rem;
 }
+
+/* Add these styles at the end of your existing CSS file */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .navbar {
+       flex-direction: column;
+       align-items: flex-start;
+    }
+ 
+    .loc-for-hover {
+       width: 100%;
+       padding: 5px;
+    }
+ 
+    .nav-search {
+       width: 100%;
+       margin-top: 10px;
+    }
+ 
+    .options, .deals3 {
+       width: 100%;
+       margin-top: 10px;
+    }
+ 
+    .box-main {
+       width: 100%;
+       margin-bottom: 20px;
+    }
+ 
+    .footerr {
+       flex-direction: column;
+       height: auto;
+    }
+ 
+    .snd-footer {
+       flex-direction: column;
+    }
+ 
+    .snd-footer .links {
+       width: 100%;
+    }
+ 
+    .footer3, .footer4 {
+       height: auto;
+       padding: 10px;
+    }
+ }
+ 
